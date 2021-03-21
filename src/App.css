@@ -1,0 +1,336 @@
+html{
+  font-size: 64px;
+}
+body{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.main{
+  padding: 20px 0px;
+  animation: backchange 16s infinite ease;
+  background: linear-gradient(-45deg, #1B6420, #24C5E2, #26E5A5, #2F5582);
+  background-size: 400% 400%;
+}
+.main>h1{
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  position: relative;
+  top: -80px;
+}
+h1::selection{
+  color: rgb(33, 196, 33);
+
+}
+input{
+  position: relative;
+  top: -100px;
+  left: 450px;
+  font-size: .6rem;
+  border: none;
+  outline: none;
+  /* border-radius: 20px 20px; */
+  border-bottom: 3px solid grey;
+  background: transparent;
+  color: whitesmoke;
+  font-family:cursive;
+  opacity: .75;  
+}
+button{
+  position: relative;
+  left: 420px;
+  top:-90px;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  cursor: pointer;
+}
+.quote>h3{
+  color: #26E5A5;
+  font-size: .9rem;
+  text-align: center;
+  font-style: italic;
+}
+.quote>h4{
+  font-size: .5rem;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+
+  
+}
+.back_photo{
+  background-image: url('https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg?quality=85&w=1024&h=512&crop=1');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* filter: blur(1.5px); */
+  
+}
+.image1 {
+  
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 25%;
+  
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+ 
+}
+
+
+.image1:hover{
+ -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.image2{
+  width: 25%;
+  position: relative;
+  top: 50px;
+  left: 180px;
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+.image2:hover{
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.image3{
+  width: 25%;
+  position: relative;
+  top: 50px;
+  left: 280px;
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+.image3:hover{
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.inner_photo{
+  backdrop-filter: blur(5px);
+  padding: 5px 0;
+  height: 460px;
+  
+}
+.quote2 > h3{
+   text-align: center;
+   font-size: .8rem;
+   font-style: italic;
+   color: rgba(27, 124, 27, 0.808);
+}
+.quote2> h4{
+  font-size: .5rem;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+.back_photo2{
+  background-image: url('https://mcmscache.epapr.in/post_images/website_350/post_15673237/thumb.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.inner_photo1{
+  backdrop-filter: blur(5px);
+  padding: 5px 0;
+  height: 460px;
+}
+.image4{
+  width: 25%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+.image4:hover{
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.image5{
+  width: 25%;
+  position: relative;
+  top: 50px;
+  left: 180px;
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+.image5:hover{
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.image6{
+  width: 25%;
+  position: relative;
+  top: 50px;
+  left: 280px;
+  height: 300px;
+  -webkit-transform: skewX(2deg);
+  transform: skewX(2deg);
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+.image6:hover{
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+.quote3 > h3{
+  text-align: center;
+  font-size: .8rem;
+  font-style: italic;
+  color: rgba(6, 134, 92, 0.541);
+}
+.quote3 > h4{
+  font-size: .5rem;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+.back_photo3{
+  background-image: url('https://nicholas.duke.edu/sites/default/files/styles/banner/public/images/FORESTRY2GY2951%20Aerial%20View%20of%20Rainforest.jpg?h=30a79e1f&itok=3hHz6VpC');
+
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+}
+.inner_photo2{
+  backdrop-filter:  grayscale(.8);
+  /* padding: 5px 0; */
+  height: 400px;
+}
+.inner_photo2>h3{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.5em;
+}
+.inner_photo2>h4{
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  top: -90px;
+}
+.inner_photo2>p{
+  font-size: .3rem;
+  color: whitesmoke;
+  text-align: center;
+}
+@keyframes backchange{
+     0%{
+       background-position: 0% 50%;
+     }
+     50%{
+       background-position: 100% 50%;
+     }
+     100%{
+       background-position: 0% 50%;
+     }
+}
+@media(max-width:660px){
+  html{
+    font-size: 32px;
+  }
+  .main>h1{
+    position: relative;
+    top: -50px
+  }
+  input{
+    position: relative;
+    top:-50px;
+    left: 140px;
+  }
+  button{
+    position: relative;
+    left: 110px;
+    top:-49px
+  }
+  .quote>h4{
+     
+   position: relative;
+   bottom: 30px;
+    
+  }
+  .back_photo{
+    height: 1000px;
+  }
+  .image1{
+    width: 70%;
+  }
+  .image2{
+    width: 70%;
+    position: relative;
+    left: 100px;
+  }
+  .image3{
+    position: relative;
+    width: 70%;
+    left: 50px;
+   
+  }
+  .inner_photo{
+    height: 1000px;
+  }
+  .back_photo2{
+    height: 1000px;
+  }
+  .image4{
+    width: 70%;
+  }
+  .image5{
+    width: 70%;
+    position: relative;
+    left: 100px;
+  }
+  .image6{
+    position: relative;
+    width: 70%;
+    left: 50px;
+   
+  }
+  .inner_photo1{
+    height: 1000px;
+  }
+  .quote2>h4{
+    position: relative;
+    bottom: 30px;
+  }
+  .quote3>h4{
+    position: relative;
+    bottom: 25px;
+  }
+  .inner_photo2>h3{
+    font-size: 2rem;
+  }
+  .inner_photo2>h4{
+   font-size: 1.8rem;
+   position: relative;
+   top: -70px;
+  }
+  .inner_photo2> p{
+    font-size: 1rem;
+  }
+}
